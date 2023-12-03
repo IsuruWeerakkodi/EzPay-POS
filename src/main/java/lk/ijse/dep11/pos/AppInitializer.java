@@ -24,7 +24,7 @@ public class AppInitializer extends Application {
         Parent root = FXMLLoader.load(this.getClass().getResource("/view/MainForm.fxml"));
         Scene mainScene = new Scene(root);
         primaryStage.setScene(mainScene);
-        primaryStage.setTitle("Smart POS");
+        primaryStage.setTitle("EzPay POS");
         primaryStage.setResizable(false);
         primaryStage.centerOnScreen();
         primaryStage.show();
